@@ -8,7 +8,7 @@ export default {
     emptyOutDir: true,
     lib: {
       entry: fileURLToPath(new URL("./src/main.js", import.meta.url)),
-      name: "helloInAppToolFrontend",
+      name: "hello_in_appToolFrontend",
       formats: ["iife"],
       fileName: () => "tool.js",
     },

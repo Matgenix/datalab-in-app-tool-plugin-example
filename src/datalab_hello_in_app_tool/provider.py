@@ -3,12 +3,13 @@
 from pathlib import Path
 
 from flask import Blueprint, send_from_directory
-
 from pydatalab.tools import (
     InAppToolUI,
     ToolMetadata,
     ToolProvider,
 )
+
+from ._version import __version__
 
 TOOL_BLUEPRINT = Blueprint("datalab_hello_in_app_tool", __name__)
 TOOL_ID = "hello-in-app"
@@ -31,7 +32,7 @@ class HelloInAppToolProvider(ToolProvider):
     metadata = ToolMetadata(
         name="Hello in-app",
         description="Print one datalab-backed message inside the web app.",
-        version="0.1.0",
+        version=__version__,
         icon="laptop-code",
         ui=InAppToolUI(),
     )
