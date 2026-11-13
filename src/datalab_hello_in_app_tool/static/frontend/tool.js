@@ -29,7 +29,7 @@
 	};
 	var _hoisted_1 = { class: "datalab-tool-hello-in-app px-3 px-xl-5 py-3" };
 	function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
-		return (0, vue.openBlock)(), (0, vue.createElementBlock)("section", _hoisted_1, [_cache[0] || (_cache[0] = (0, vue.createElementVNode)("h1", { class: "h3" }, "Hello in-app", -1)), (0, vue.createElementVNode)("p", null, (0, vue.toDisplayString)($data.message), 1)]);
+		return (0, vue.openBlock)(), (0, vue.createElementBlock)("section", _hoisted_1, [_cache[0] || (_cache[0] = (0, vue.createElementVNode)("h1", { class: "h3" }, " Hello in-app ", -1)), (0, vue.createElementVNode)("p", null, (0, vue.toDisplayString)($data.message), 1)]);
 	}
 	var ToolView_default = /*#__PURE__*/ _plugin_vue_export_helper_default(_sfc_main, [["render", _sfc_render]]);
 	//#endregion

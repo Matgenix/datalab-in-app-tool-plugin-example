@@ -1,6 +1,8 @@
 <template>
   <section class="datalab-tool-hello-in-app px-3 px-xl-5 py-3">
-    <h1 class="h3">Hello in-app</h1>
+    <h1 class="h3">
+      Hello in-app
+    </h1>
     <p>{{ message }}</p>
   </section>
 </template>
