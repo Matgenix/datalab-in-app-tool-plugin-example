@@ -7,22 +7,18 @@
 <a href="https://Matgenix.github.io/datalab-in-app-tool-plugin-example/"><img src="https://github.com/Matgenix/datalab-in-app-tool-plugin-example/actions/workflows/docs.yml/badge.svg" alt="Documentation"></a>
 </div>
 
-datalab-in-app-tool-plugin-example is a
-[datalab](https://datalab-org.io) in-app tool plugin generated with the
+# Hello in-app
+
+This minimal, trusted datalab in-app tool displays the signed-in user and their
+permission-filtered sample count. It is generated with the
 [datalab tool plugin template](https://github.com/Matgenix/datalab-tool-plugin-template).
 
-This minimal example renders below the normal datalab navigation and uses the
-frontend SDK to display the signed-in user and their permission-filtered sample
-count.
-
-Follow the
-[in-app tool plugin tutorial](https://docs.datalab-org.io/plugin-development/in-app-tool-plugin/)
-for a step-by-step walkthrough. See [INSTALL.md](INSTALL.md) for installation,
-frontend build, and development commands.
-
-Deployment administrators must review this trusted Python package, frontend
-source, dependency lockfile, and compiled bundle before installation or
-upgrade.
+- **Users:** read the [Hello in-app user guide](https://matgenix.github.io/datalab-in-app-tool-plugin-example/).
+- **Deployment administrators:** follow [INSTALL.md](INSTALL.md).
+- **Developers:** follow the datalab
+  [in-app tutorial](https://docs.datalab-org.io/en/latest/plugin-development/in-app-tool-plugin/),
+  which walks through this repository, and use
+  [INSTALL.md](INSTALL.md#development-setup) for local commands.
 
 Releases are created from semantic version tags on
 [GitHub](https://github.com/Matgenix/datalab-in-app-tool-plugin-example/releases).

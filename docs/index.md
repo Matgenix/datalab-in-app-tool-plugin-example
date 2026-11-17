@@ -1,24 +1,22 @@
 # Hello in-app
 
-A minimal in-app Hello World tool for datalab
+Hello in-app is a minimal example tool that runs below datalab's normal
+navigation. It demonstrates the frontend SDK without adding custom data routes.
 
-This package provides a trusted datalab
-in-app tool
-through the `pydatalab.tools` entry-point group.
+## Use the tool
 
-It demonstrates the in-app frontend SDK by showing the current user and their
-permission-filtered sample count.
+1. Sign in to datalab and click **Tools**.
+2. Choose **Hello in-app**.
+3. Confirm that the page greets you and shows how many samples your account can
+   access.
 
-See the
-[installation guide](https://github.com/Matgenix/datalab-in-app-tool-plugin-example/blob/main/INSTALL.md)
-and the
-[in-app tool plugin tutorial](https://docs.datalab-org.io/plugin-development/in-app-tool-plugin/).
+The number is permission-filtered by datalab. If the tool is absent from the
+complete Tools catalog, ask the deployment administrator whether the plugin is
+installed and enabled. If its page cannot load the module, the administrator
+should verify that the compiled frontend bundle was included in the installed
+release.
 
-## Trust
-
-Tool plugins execute trusted Python code in the datalab API process.
-
-This plugin also loads trusted JavaScript in the signed-in datalab application.
-
-Deployment administrators must review source code, dependencies, compiled
-assets, maintainers, and release provenance before installation or upgrade.
+Deployment administrators should follow the repository's
+[installation guide](https://github.com/Matgenix/datalab-in-app-tool-plugin-example/blob/main/INSTALL.md).
+Developers can reproduce the implementation with datalab's
+[in-app tool tutorial](https://docs.datalab-org.io/en/latest/plugin-development/in-app-tool-plugin/).
